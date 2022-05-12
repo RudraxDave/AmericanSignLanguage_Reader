@@ -23,4 +23,9 @@ The goal of this project is to build a deep learning model to read the American 
 CNN 3 convolution layer with 89.99% accuracy
 ResNet50 with 100% accuracy
 
+---
+
+### Note to access project files
+CNN Models
+* 
 
