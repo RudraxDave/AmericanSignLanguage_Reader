@@ -1,4 +1,26 @@
-# AmericanSignLanguage_Reader
-Project Data: The Dataset is 1.11 GB in Size. The images in the dataset are manually captured  and not computer-generated. The dataset linked above contains images from 29 classes (26  alphabets, SPACE, DELETE, and NOTHING). Each class contains 3000 images in the training set  and each image is a 200 x 200 RGB image.  The training data set contains 87,000 images, of which 26 are for the letters A-Z and 3 classes for  SPACE, DELETE, and NOTHING.  These 3 classes are very helpful in real-time applications and classification.  The test data set contains a mere 29 images, to encourage the use of real-world test images.>the test  set is very small. We plan to Experiment with different architectures and  hyperparameters. First, implement the CNN architecture described in the Models of [8] and apply our  training data to generate the classification of 26 Letters. Our goal is to map images from a particular  domain to a Letter that it means. We will be finetuning (transfer learning) existing models that  perform classification on RGB images. We will Look at the levels of RGB images in Particular  Centroidal Pixels and We can Classify from the Centre Which Shape is Defined. We are Planing to  Use RESNET - Residual Neural Networks or Similar to be able to argue and analyze the better  Accuracy between all of the Networks. 
+# EE541 Final Project - Spring 2022 - American Sign Language Reader using Deep Learning Algorithms
+## University of Southern California
 
-(To be updated)
+## Contributors 
+*[Rajath Ramegowda](https://github.com/rajathbrgowda)* <br>
+*[Rudrax Dave](https://github.com/RudraxDave)*
+
+
+Note : Summarised Report is added in the current repository 
+
+---
+
+## Introduction
+
+This project allows you to put your abilities learned in Introduction to Deep Learning in Python and Image Processing with Pytorch in Python into practice, such as creating convolutional neural networks to categorize photos. Computer vision systems that convert sign language to spoken language have made significant development in recent years. Complex neural network topologies are frequently used in this technology to identify tiny patterns in live video. However, understanding how to construct a translation system is the first step. In this notebook, we'll learn to categorize photos of American Sign Language (ASL) letters using a convolutional neural network. We will train the network and assess its performance after loading, inspecting, and preparing the data.
+
+## Goal
+
+The goal of this project is to build a deep learning model to read the American Sign Language. Building 6 CNN models and comparing performance with predefined ResNet50 model.
+
+## Results
+
+CNN 3 convolution layer with 89.99% accuracy
+ResNet50 with 100% accuracy
+
+
