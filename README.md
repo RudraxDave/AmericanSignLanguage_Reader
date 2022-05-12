@@ -26,6 +26,13 @@ ResNet50 with 100% accuracy
 ---
 
 ### Note to access project files
-CNN Models
-* 
 
+#### CNN Models ipynb files<br>
+cnn_1Layer
+cnn_3Layer
+cnn_5Layer
+
+#### ResNet50 ipynb file<br>
+ResNet50Models
+
+#### Report
